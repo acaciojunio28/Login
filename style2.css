@@ -1,0 +1,85 @@
+#cabeça{background: #add8e6;
+    width:1500px;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    top:0px;
+    right: 0px;
+    box-shadow:0px 5px 2px rgba(35, 35, 35, 0.582) ;
+}
+#empresa{
+    font-size: 50px;
+    margin-left: 580px;
+    margin-top: 0px;
+}
+#cabeça2{
+    background: #add8e6;
+    width:500x;
+    height: 50px;
+    margin-top: 0cm;
+    
+    
+}
+#cabeça3{
+    font-size: 23px;
+    margin-top: 0cm;
+    margin-left: 225px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top:0.3cm;
+}
+#logo{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 10px;
+    top:10px;
+    right: 0px;
+    
+}
+#pop{
+    
+    color:black;
+    text-decoration: none;
+    margin-left: 580px;
+
+}
+#form{
+    width: 500px;
+    height: 500px;
+    border-width: thin;
+    border-color: black;
+    border-style: solid;
+    margin-top:150px;
+    margin-left: 450px;
+    background-color: white;
+    box-shadow: 7px 5px 2px rgba(50, 50, 50, 0.349);
+}
+#fundo{
+    background-image: url("desf.jpg");
+}
+#nome{
+    margin-top: 50px;
+    margin-left: 500px;
+}
+.nome{
+    width: 200px;
+    height: 23px;
+    margin-top: 100px;
+}
+.nome:focus{
+    box-shadow: 0 0 20px #add8e6;
+}
+.botao{width:100px;
+       height: 30px;
+       margin-top: 50px;
+       margin-left: 580px;
+       margin-bottom: 20px;
+       cursor: pointer;
+       background-color:#add8e6 ;
+       border: none;
+
+}
+.botao:hover{
+    background-color: blue;
+}

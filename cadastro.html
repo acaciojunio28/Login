@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style2.css" media="screen" />
+    <link rel="icon" type="imagem/png" href="img.png" \>
+    <script type="text/javascript" src="cadastro.java"> </script>
+    <title>Formulario</title>
+</head>
+<body id="fundo">
+    <header>
+        <div id="cabeça">
+            <figure>
+                <img src="img.png" id="logo">
+            </figure>
+            <p id="empresa">Cadastro</p>
+        </div>
+    </header>
+
+        
+    
+
+         <form action="cadastro.php" method="POST" name="login" onsubmit="return valida()" >
+            <div>
+                <label for="nome" id="nome" >Nome:</label>
+                 <input type="text" class="nome" name="nome" id="n" placeholder="  Digite Aqui Seu Nome"/>
+  
+                </div>
+            <div>
+                <label for="nome" id="nome">Senha:</label>
+                 <input type="text" class="nome" placeholder="  Digite Aqui Sua Senha" name="senha" id="s"/>
+            </div>
+            <div>
+                <label for="nome" id="nome">login:</label>
+                 <input type="text" class="nome" placeholder="  Digite seu login" name="login" id="s"/>
+            </div>
+            <div>
+                <input type="submit" class="botao" value="Enviar" />
+            </div>
+        
+         </form>
+         
+            <a href="formulario.html" id="pop">Voltar ao <b> Login </b></a>
+        
+
+        
+    
+</body>
+</html>
